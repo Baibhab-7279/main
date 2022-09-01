@@ -1,0 +1,82 @@
+#maincontainerpara {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+#carouselExampleControls {
+  margin-left: 1px;
+  margin-right: auto;
+}
+
+#maincontentparabutton {
+  margin-top: 5px;
+  margin-left: 40px;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#maincontentpara1 {
+  width: 300px;
+  margin-left: 42px;
+  margin-right: auto;
+  font-size: 15px;
+}
+
+#maincontentpara1greeting {
+  margin-left: 25px;
+}
+
+#cardimage1,
+#cardimage2,
+#cardimage3 {
+  height: 190px;
+  width: 190px;
+}
+
+#secondsempdf {
+  width: 1000px;
+  height: 640px;
+}
+
+
+
+
+@media only screen and (max-width: 790px) {
+  #maincontainer {
+    flex-direction: column-reverse;
+  }
+
+  #maincontainerpara {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #carouselExampleControls {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #maincontentparabutton {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #cardimage1,
+  #cardimage2,
+  #cardimage3 {
+    width: 800px;
+  }
+
+  #secondsempdf {
+    width: 345px;
+    height: 685px;
+  }
+
+}
